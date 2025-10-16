@@ -1,33 +1,73 @@
 <!DOCTYPE html>
 <html lang="fr">
-<link href="style.css" rel="stylesheet" type="text/css">
 <head>
+    <link href="style.css" rel="stylesheet" type="text/css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bibliothèque Damso</title>  
+    <title>Bibliothèque Damso</title>
 </head>
-<body>
-    <nav>
-    <h1><a href="https://fr.wikipedia.org/wiki/Damso">Damso</a></h1>
-    <img src="https://hiphopcorner.fr/wp-content/uploads/2020/09/9838f1a_488714794-sh-art-damso-00554-1200x675.jpg" alt="tete damso">
-    </nav>
-    
+
+<body class="arriere">
+
+<!--Wikipédia-->
+    <nav><h1 class="titrep">Damso</h1></nav>
+
+<!--bio + damso + vie-->
+<div id="bio">
+        <a href="https://fr.wikipedia.org/wiki/Damso" target="_blank">
+        <img id="damsop" src="https://hiphopcorner.fr/wp-content/uploads/2020/09/9838f1a_488714794-sh-art-damso-00554-1200x675.jpg" alt="tete damso">
+        </a>
+        <img class="vi" src="/vie.jpg" alt="vie">
+        <div class="bio3">
+            <span>Damso</span>, nom de scène de <span>William Kalubi</span>, est un rappeur, chanteur et auteur-compositeur-interprète congolo-belge, né le <span>10 mai 1992 à Kinshasa</span>.
+            Actif dans le monde du rap depuis 2006, Damso débute dans la publication de projets avec sa première mixtape Salle d'attente, sortie en 2014. 
+            Sa carrière prend de l'ampleur en 2015, lorsqu'il est repéré par Booba. Il intègre alors le collectif et label 92i, et signe chez Universal Music France.    
+        </div>
+    </div>
+
+<!--Musiques connues = spotify-->
     <div>
-    <h2>Ses musiques les plus connues :</h2>
-    <h3><ul>
-        <li>Macarena | <a href="https://www.youtube.com/watch?v=GGhKPm18E48">Ecouter</a></li> 
-        <li>Police | <a href="https://www.youtube.com/watch?v=oQ7H4bVasqM">Ecouter</a></li>
-        <li>Débrouillard | <a href="https://youtu.be/S4FvhbLhBbI">Ecouter</a></li>
-        <li>Feu de bois | <a href="https://youtu.be/Kfxwaq-gx6g">Ecouter</a></li>   
+        <p>
+            <h1 id="muss"><a href="https://open.spotify.com/artist/2UwqpfQtNuhBwviIC0f2ie">Ses musiques les plus connues</a></h1>
+        </p>
+    </div>
+
+<!--Ecouter-->
+    <div id="liste_musique">
+    <h3><ul class="listem">
+        <p>Macarena | <a href="https://www.youtube.com/watch?v=GGhKPm18E48">Ecouter</a></p> 
+        <p>Police | <a href="https://www.youtube.com/watch?v=oQ7H4bVasqM">Ecouter</a></p>
+        <p>Débrouillard | <a href="https://youtu.be/S4FvhbLhBbI">Ecouter</a></p>
+        <p>Feu de bois | <a href="https://youtu.be/Kfxwaq-gx6g">Ecouter</a></p>   
     </ul></h3>
     </div>
-<h1><u>Albums</u></h1>
-<table>
-    
-</table>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD8Gv1WkXMF8ev83ELkK1SOvQjArqQ_Up9GQ&s" alt="albums">
 
-<h1><u>Contact</u></h1>
-<h2><a href="/contact.html">Cliquer ici</a></h2>
+<!--Albums-->   
+<div>
+<h1 class="titrep"><a href="https://open.spotify.com/artist/2UwqpfQtNuhBwviIC0f2ie/discography/album">Albums</a></h1>
+</div>
+
+<!--Photo album + liste-->
+<div class="container2">
+    <img id="dli" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRD8Gv1WkXMF8ev83ELkK1SOvQjArqQ_Up9GQ&s" alt="albums">
+
+    <ul id="lis">
+        <p>Batterie Faible</p>
+        <p>Ipséité</p>
+        <p>Lithopédion</p>
+        <p>QALF</p>
+        <p>BEYAH</p>
+    </ul>
+</div>
+
+<!--Page contact-->
+<h1 class="titrep"><a href="/contact.html">Contact</a></h1>
+
+
+
+
+
+
+
 </body>
 </html>

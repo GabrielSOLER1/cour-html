@@ -4,30 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Contact</h1>
-    <form action="/action.php" method="post">
-
-        <div>
-            <label for="email">Adresse email :</label>
-            <input type="email" name="email" id="email">
-        </div>
-
-        
-        <div>
-            <label for="subject">Objet :</label>
-            <input type="text" name="subject" id="subject">
-        </div>
-        
-                <div>
+    <h1 class="titrep">Contact</h1>
+    <div id="formulaire">
+        <form action="/action.php" method="post">
+    
+            <div class="formulaire">
+                <label for="email">Adresse email :</label>
+                <input type="email" name="email" id="email" width="100">
+            </div>
+    
+            
+            <div class="formulaire">
+                <label for="subject">Objet :</label>
+                <input type="text" name="subject" id="subject" class="form-input">
+            </div>
+            
+            <div class="formulaire">
                 <label for="Message">Message :</label>
                 <textarea name="content" id="content"></textarea>
-                </div>
-        
-        <button type="submit">Envoyer</button>
-        
-    </form>
+            </div>
+            
+            <button type="submit">Envoyer</button>
+            
+        </form>
+
+    </div>
 
 </body>
 </html>
